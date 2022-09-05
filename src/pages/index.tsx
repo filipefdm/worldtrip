@@ -2,6 +2,7 @@ import { Flex } from "@chakra-ui/react";
 import Banner from "../components/Banner";
 import Features from "../components/Features";
 import Header from "../components/Header";
+import Separator from "../components/Separator";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Banner />
       <Features />
+      <Separator />
     </Flex>
   );
 }
